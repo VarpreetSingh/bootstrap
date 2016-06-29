@@ -1,0 +1,287 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+  text-align: center;
+}
+#features img{
+  margin:0 0 20px;
+}
+#inputmessage{
+  margin-bottom: 15px;
+}
+
+footer{
+  background: #333;
+  color:#eee;
+  font-size: 11px;
+  padding:20px;
+}
+
+
+
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body{
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+.well .page-header{
+  margin-top: 0px;
+}
+.well .page-header h1
+{
+    margin-top: 0px;
+}
+
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #searchinput{
+     width: 200px;
+     margin-left: 10px;
+   }
+
+   .navbar-brand{
+     padding: 13px 15px;
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#mycarousel{
+  margin-top: 60px;
+}
+
+.carousel-caption{
+  font-size: 24px;
+}
+
+.carousel-caption h4{
+  font-size: 32px;
+}
+
+#mycarousel .item{
+  height: 400px;
+}
+
+#slide1{
+  background: url("../../images/slide6.jpg") top center no-repeat;
+}
+#slide2{
+  background: url("../../images/slide9.jpg") top center no-repeat;
+}
+#slide3{
+  background: url("../../images/slide7.jpg") top center no-repeat;
+}
+#aboutus{
+  text-align: justify;
+}
+#featurehead{
+  text-align: center;
+  color: brown;
+}
+#innerheader1{
+  text-align: center;
+}
+#ourfleet{
+  text-align: center;
+}
+#displaypane{
+  text-align: center;
+}
+#b1{
+  text-align: center;
+}
+#carfeatures{
+  text-align: center;
+}
+#businessmodelheading{
+  text-align: center;
+  color: brown;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert{
+  margin-top: 20px;
+  display:none;
+}
+
+.well{
+  margin:20px 0px;
+}
+
+.tabbable img.thumbnail{
+  margin: 0 20px 10px 0;
+}
+
+.thumbnails{
+  margin: 20px 0;
+}
+
+.thumbnail{
+  position:relative;
+}
+
+.thumbnail h3
+{
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 20px;
+}
+.thumbnail .price{
+  font-size: 22px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  padding: 10px;
+}
+
+#ourfleet{
+  color: brown;
+}
+
+.thumbnail .price .thumbnail{
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.thumbnail span.glyphicon{
+  margin-right: 5px;
+}
+
+#phoenixhub{
+  text-align: center;
+  color: brown;
+}
+
+#submitbutton{
+  margin-top: 10px;
+
+}
+
+
+
+.feature{
+  margin-top: 70px;
+}
+
+#featuresheading{
+  margin-top: 10px;
+}
+#myfeatures{
+  margin-top: 40px;
+}
+
+.lead{
+  text-align: justify;
+}
+#desc{
+  color: brown;
+}
+#carfeatures{
+  color: brown;
+}
+#description{
+  color: brown;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+.thumbnail .price{
+  font-size: 14px;
+}
+.thumbnail .price sup{
+  font-size: 10px;
+}
+
+  #mycarousel .item{
+    height: 310px;
+  }
+
+  #slide1{
+    background: url("../../images/slide6.jpg") top center no-repeat;
+  }
+  #slide2{
+    background: url("../../images/slide9.jpg") top center no-repeat;
+  }
+  #slide3{
+    background: url("../../images/slide7.jpg") top center no-repeat;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #mycarousel .item{
+    height: 350px;
+  }
+
+  #slide1{
+    background: url("../../images/slide6.jpg") top center no-repeat;
+
+  }
+  #slide2{
+    background: url("../../images/slide9.jpg") top center no-repeat;
+    text-
+  }
+  #slide3{
+    background: url("../../images/slide7.jpg") top center no-repeat;
+  }
+
+  .carousel-caption{
+    font-size: 16px;
+  }
+  .carousel-caption h2{
+    font-size: 22px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #mycarousel .item{
+    height: 500px;
+  }
+
+  #slide1{
+    background: url("../../images/slide6.jpg") top center no-repeat;
+  }
+  #slide2{
+    background: url("../../images/slide9.jpg") top center no-repeat;
+  }
+  #slide3{
+    background: url("../../images/slide7.jpg") top center no-repeat;
+  }
+}
